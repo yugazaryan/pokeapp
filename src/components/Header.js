@@ -10,7 +10,7 @@ const Header = () => {
     return (
         <Navbar bg="dark" variant="dark" expand="lg">
         <Container>
-        <Navbar.Brand href="#home">React-Bootstrap</Navbar.Brand>
+        <Navbar.Brand href="/">PokeApp</Navbar.Brand>
     <Navbar.Toggle aria-controls="basic-navbar-nav" />
     <Navbar.Collapse id="basic-navbar-nav">
       <Nav className="me-auto">
@@ -19,6 +19,9 @@ const Header = () => {
         </LinkContainer>
         <LinkContainer to={"pokelist"}>
         <Nav.Link>Pokemons</Nav.Link>
+        </LinkContainer>
+        <LinkContainer to={"favourites"}>
+        <Nav.Link>Favourites</Nav.Link>
         </LinkContainer>
       </Nav>
     </Navbar.Collapse>
